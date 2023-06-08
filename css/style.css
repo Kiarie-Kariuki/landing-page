@@ -1,19 +1,51 @@
-.body {
-    padding: 0;
-    margin: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+body{
+    background: bisque;
 }
-
-.navbar {
+.navbar{
+    background: bisque;
     display: flex;
+    justify-content: space-between;
+    color: blueviolet;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 
 }
-
-nav ul {
+ul{
     display: flex;
     list-style: none;
-    padding-right: 50px;
 }
-#logo {
-    display: inline;
+a{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: large;
+    text-decoration: none;
+}
+#logo{
+    font-size: large;
+    font-weight: 600;
+}
+#logo span{
+    color: brown;
+    font-style: italic;
+}
+.content{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.buttons button{
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 20px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+}
+.icons i{
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 50px;
+    cursor: pointer;
 }

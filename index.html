@@ -5,16 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing page</title>
-    <link rel="stylesheet" href="/css/style.css"/>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
 </head>
 <body>
-    <div class="nav bar">
+    <div class="navbar">
         <div id="logo">
-            <a href="/">
-                Collins Kiarie
-            </a>
+            <p>
+              <a href="/">
+                Collins <span> Kiarie</span>
+              </a>
+            </p>  
         </div>
-        <nav>
+        <div class="nav-links">
+            <nav>
             <ul>
                 <li> 
                     <a href="/">HOME</a>
@@ -32,7 +36,31 @@
                     <a href="/">CONTACT</a>
                 </li>
             </ul>
-        </nav>
+            </nav>
+        </div>
+    </div>
+    <div class="content">
+        <div  id="introduction">
+            <p style="font-size: 50px;">
+                <b>Hi, I'm <span style="color: brown;">Collins Kiarie</span></b></p>
+                <p style="font-size: 80px;"><b>Fullstack Developer</b> </p>
+            <p style="font-size: 30px;">
+                Experienced fullstack developer with a demonstrated history in working in the internet industry. Building web applications with Angular PHP, Laravel, Python,Django, Flask, MySQL/Postgres and some other cool libraries and frameworks.
+            </p>
+        </div>
+        <div>
+            <img src="./image/photo-1461749280684-dccba630e2f6.jpeg" alt="a picture of code"/>
+        </div>
+    </div>
+    <div class="buttons">
+        <button>View Resume</button>
+        <button> Contact Me</button>
+    </div>
+    <div class="icons">
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-google"></i>
     </div>
 </body>
 </html>
